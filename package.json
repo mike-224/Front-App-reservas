@@ -1,0 +1,57 @@
+{
+  "name": "front",
+  "description": "Front de proyecto final Jeff",
+  "version": "1.0.0",
+  "author": "MIKE224 <miguel@siemprendedor.com>",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "dev": "cross-env NODE_ENV=development webpack-dev-server --open --hot",
+    "build": "cross-env NODE_ENV=production webpack --progress --hide-modules"
+  },
+  "dependencies": {
+    "autoprefixer": "^9.7.3",
+    "axios": "^0.19.0",
+    "babel-core": "^7.0.0-bridge.0",
+    "bulma": "^0.8.0",
+    "vue": "^2.5.11",
+    "vue-axios": "^2.1.5",
+    "vue-router": "^3.1.3",
+    "vue-style-loader": "^4.1.2",
+    "vuex-rest-api": "^2.11.0"
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not ie <= 8"
+  ],
+  "devDependencies": {
+    "@babel/core": "^7.7.5",
+    "@babel/plugin-proposal-class-properties": "^7.0.0",
+    "@babel/plugin-proposal-json-strings": "^7.0.0",
+    "@babel/plugin-syntax-dynamic-import": "^7.0.0",
+    "@babel/plugin-syntax-import-meta": "^7.7.4",
+    "@babel/preset-env": "^7.7.6",
+    "@vue/babel-preset-app": "^4.1.1",
+    "babel-eslint": "^10.0.3",
+    "babel-loader": "^8.0.6",
+    "cross-env": "^5.0.5",
+    "css-loader": "^0.28.7",
+    "eslint-config-standard": "^14.1.0",
+    "eslint-loader": "^3.0.2",
+    "eslint-plugin-html": "^6.0.0",
+    "eslint-plugin-import": "^2.18.2",
+    "eslint-plugin-node": "^10.0.0",
+    "eslint-plugin-promise": "^4.2.1",
+    "eslint-plugin-standard": "^4.0.1",
+    "eslint-plugin-vue": "^6.0.1",
+    "file-loader": "^1.1.4",
+    "node-sass": "^4.5.3",
+    "sass-loader": "^6.0.6",
+    "standard": "^14.3.1",
+    "vue-loader": "^13.0.5",
+    "vue-template-compiler": "^2.4.4",
+    "webpack": "^3.12.0",
+    "webpack-dev-server": "^2.9.1"
+  }
+}
